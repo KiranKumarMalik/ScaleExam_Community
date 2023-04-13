@@ -779,7 +779,7 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="container">
       <div class="row">
         <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
-          <p>© Copyright 2021 ScaleExam Co. All Rights Reserved. 
+          <p>© Copyright <span id="year"></span> ScaleCrew Co. All Rights Reserved. 
           
           <br>Designed by: <a rel="nofollow" href="index.html">ScaleCrew</a></p>
         </div>
@@ -793,6 +793,9 @@ https://templatemo.com/tm-562-space-dynamic
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
